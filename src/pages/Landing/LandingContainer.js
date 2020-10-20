@@ -19,16 +19,16 @@ const Landing = () => {
                    </span>
                     <span>
                         <strong> For companies hiring is hard and expensive,</strong> it is a very time consuming process
-                        which doesnt yield good enough returns.
-                    </span>
-                    <span>
-                        We are here to make your life easier. Talam has a community of pre veted candidates for different 
+                        which doesnt yield good enough returns. Talam has a community of pre veted candidates for different 
                         remote first positions.
                     </span>
+    
+                        
+                   
                     <p>
                         <strong>The opportunity: </strong> <span>Latam is filled with incredibly talented people, but 
                             job opportunities are not always the best. The tech industry is screaming for more talent but it's hard
-                            to find and very expensive.  
+                            to find and very expensive. We are here to help 
                             </span>
                            
                     </p>

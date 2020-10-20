@@ -13,12 +13,12 @@ const WhyContainer = () => {
                 <p>
                     <strong>Salary comparisson:</strong> In most of Latin America a Junior Software Engineer salary gravitates in average
                     around <strong className="highlight">$1,000 to $2,000</strong> usd per month. The exact same position, requiring the same skills and the same experience in the US
-                    pays anywhere from <strong className="highlight">$50,00 to $10,000 usd monthly</strong>. There is a huge opportunity for arbitrage here,
-                    where employees can increase their salaries by 2x while the employees being able to save 1/2 of their hiring costs and everyone still walks
+                    pays anywhere from <strong className="highlight">$5,000 to $10,000 usd monthly</strong>. There is a huge opportunity for arbitrage here,
+                    where employees can increase their salaries by 2x+ while we enable employers to save 1/2 of their hiring costs and everyone still walks
                     away with a huge smile in their face.
                 </p>
                 <p>
-                    <strong>Why now? :</strong> With current world events, the already rapid <strong className="highlight">shift towards remote work </strong> 
+                    <strong>Why now? :</strong> With current world events the already rapid <strong className="highlight">shift towards remote work </strong> 
                     accelerated at uninmiaginable speeds.
                     This is a tremendous opportunity to improve people's quality of life. Folks can work from anywhere, avoid commuting, and this opens a
                     world of new job opportunities remotely for workers everywhere where they can take advantage of entering a <strong className="highlight">
