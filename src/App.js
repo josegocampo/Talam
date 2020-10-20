@@ -20,7 +20,7 @@ function App() {
         <Route exact path ="/why" component={WhyPage}/>
         <Route exact path ="/pricing" component={PricingPage}/>
         <Route exact path ="/support" component={SupportPage}/>
-                {/* <Route exact path ="/support" component={SupportPssage}/> */}
+                {/* <Route exact pddsadasdasdasdasdath ="/support" component={SupportPssage}d/> */}
         </div>
         </BrowserRouter>
       
