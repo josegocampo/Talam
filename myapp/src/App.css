@@ -1,6 +1,3 @@
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -8,13 +5,13 @@
 
 .App {
   text-align: center;
-  width: 650px;
   margin: 0 auto;
   font-size: 1.7rem;
   font-weight: 500;
-  color:#fefefe;
-  margin-top: 40px;
-  font-family: 'Roboto', sans-serif;
+  color:#1d2d35;
+  width: 1072px;
+  text-align: left;
+  height: 3000px;
 }
 
 .App-logo {
@@ -51,57 +48,103 @@
     transform: rotate(360deg);
   }
 }
+.topnav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #32ac1f;
+  color: white;
+  font-weight: 600;
+  height: 40px;
+}
 
 .navigator{
-  background: #FFF9D5;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
-  width: 650px;
+  height: 80px;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.95);
 }
 
 .click-me{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .talam{
   width: 40%;
-  font-size: 2rem;
-  font-weight: 600;
-  font-family: 'Caveat', cursive;
-  display: flex;
+  font-size: 3rem;
+  font-weight: 700;
+  display: inline-flex;
   align-items: center;
-
+  flex-direction: row;
 }
-button{
-  border: 2px solid #f2bc80;
-  background: #ff9a29;
-  width: 210px;
+
+.click-here{
+  border: 2px solid #ffe000;
+  background: #ffe000;
+  width: 290px;
   height: 70px;
-  border-radius: 2px;
-  color: white;
+  color: #1d2d35;
   margin-right: 50px;
-  font-family: 'Varela Round', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
-button:hover{
+.click-here:hover{
+  border: 2px solid #1d2d35;
+  background: #1d2d35;
   cursor: pointer;
-  background: #3a96c6;
+  color: #ffe000;
 }
 
 a{
   text-decoration: none;
-  font-size: 0.8rem;
-  color: #272E4B;
-  font-weight: 600;
+  color: #1d2d35;
+}
+
+.logo-text{
+  margin-bottom: 25px;
 }
 
 .logo{
-  width: 40px;
-  margin-right: 2px;
+  width: 50px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.logoyellow{
+  width: 50px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+
+.talam .logoyellow{
+  display: none;
+}
+
+.talam:hover .logo{
+  display: none;
+}
+
+.talam:hover .logoyellow{
+  display: inline-flex;
+ 
+}
+
+.landing-text{
+  font-size: 2.9rem;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.landing-pitch{
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
 }
 
 .latam{
@@ -111,17 +154,85 @@ a{
 .title{
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .nav-links{
-  width: 40%;
+  width: 29%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 1.1rem;
+  font-weight: 700;
 }
 
 a:hover{
   cursor: pointer;
-  color: lightcoral;
+  color: #ffe000;
+}
+
+.team-container{
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.team-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  width: 42%;
+  height: 500px;
+  border-radius: 5px;
+  border: 3px solid coral;
+  background: #f9dbd2;
+  color: black;
+}
+
+.team-pic{
+  width: 160px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.team-title{
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 20px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.team-bio{
+  font-size: 1.1rem;
+  text-align: left;
+  padding: 10px;
+
+}
+
+button{
+  font-family: "Segoe UI";
+  font-weight: 700;
+}
+
+.sign-in{
+  background-color: transparent;
+  border: 2px solid black;
+  height: 40px;
+  width: 80px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.sign-in:hover{
+  color: white;
+  border: 2px solid black;
+  background: black;
+  cursor: pointer;
+}
+.highlight{
+  background: yellow
 }

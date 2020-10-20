@@ -1,19 +1,29 @@
 import React from 'react';
 import {BrowserRouter, Route} from 'react-router-dom';
 import './App.css';
-import Nav from './Nav';
-import Landing from './Landing';
+import Navigator from './Navigator';
+import { LandingPage } from './pages/Landing';
+import { HowPage } from './pages/HowItWorks';
+import { WhyPage } from './pages/WhyTalam';
+import { PricingPage } from './pages/Pricing';
+import { SupportPage } from './pages/Support';
 
 function App() {
   return (
     <>
-      <Nav/>
-      <div className="App">
+     
         <BrowserRouter>
-        <Route exact path ="/" component={Landing}/>
+        <Navigator/>
+        <div className="App">
+        <Route exact path ="/" component={LandingPage}/>
+        <Route exact path ="/how" component={HowPage}/>
+        <Route exact path ="/why" component={WhyPage}/>
+        <Route exact path ="/pricing" component={PricingPage}/>
+        <Route exact path ="/support" component={SupportPage}/>
+        </div>
         </BrowserRouter>
       
-    </div>
+  
     </>
   );
 }
