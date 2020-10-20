@@ -15,3 +15,16 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+
+
+// {
+//   "src": "logo192.png",
+//   "type": "image/png",
+//   "sizes": "192x192"
+// },
+// {
+//   "src": "logo512.png",
+//   "type": "image/png",
+//   "sizes": "512x512"
+// }
