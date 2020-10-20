@@ -12,7 +12,7 @@ const Navigator = () => {
     return (
       <div style={{display: 'flex', flexDirection: 'column', top: 0, position: 'sticky'}}>
             <div className ="topnav">
-                   Talam is the most efficient way to hire for remote jobs. Let us do the work for you :)
+                   Talam is the most efficient way to hire for remote jobasddasdasdsadsas. Let us do the work for you :)
             </div>
            <div style={{backgroundColor: 'transparent', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <div className="navigator">
