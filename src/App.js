@@ -21,6 +21,7 @@ function App() {
         <Route exact path ="/pricing" component={PricingPage}/>
         <Route exact path ="/support" component={SupportPage}/>
                 {/* <Route exact pddsadasdasdasdasdath ="/support" component={SupportPssage}d/> */}
+                  {/* <Route exact pddsadasdasdasdasdath ="/support" component={SupportPssage}d/> */}  {/* <Route exact pddsadasdasdasdasdath ="/support" component={SupportPssage}d/> */}
         </div>
         </BrowserRouter>
       
